@@ -1,0 +1,26 @@
+body {
+    margin-top: 8vh;
+    height: 85%;
+}
+
+.form-d, .result-d {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.dn {
+    display: none;
+}
+
+#score-wrapper {
+    height: 20vh;
+    display: grid;
+}
+
+#score {
+    justify-self: center;
+    align-self: center;
+}
